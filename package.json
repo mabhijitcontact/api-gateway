@@ -2,7 +2,7 @@
   "name": "api-gateway",
   "version": "1.0.0",
   "description": "",
-  "main": "apigateway.js\u001b[D\u001b[D\u001b[DServer.js",
+  "main": "agserver.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
