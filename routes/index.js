@@ -1,7 +1,9 @@
 const express = require("express");
 const router = express.Router();
 const feedMS = require("./feed-micro-service");
-const postMS = require("./post-micro-service")
+const postMS = require("./post-micro-service");
+const userController = require("../apigatewayController");
+
 router.use((req, res, next) => {
     console.log("Hurray--->>>>>", req.path)
     next()
@@ -9,5 +11,6 @@ router.use((req, res, next) => {
 
 router.use(feedMS);
 router.use(postMS);
+router.use(userController);
 
 exports.module = router; 
