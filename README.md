@@ -1,7 +1,7 @@
 # api-gateway
 
 ## API gateway for MicroService
-![alt text](https://github.com/mabhijitcontact/api-gateway/blob/master/Untitled%20Diagram.jpg?raw=true)
+![alt text](https://github.com/mabhijitcontact/api-gateway/blob/master/ApiGateway-Diagram.jpg?raw=true)
 
 > The simple gateway code provides a single endpoint or URL for the client apps and then internally maps the requests to a group of internal microservices.
 > Internally you can set Microservices end point in config or in .env file.
